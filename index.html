@@ -4,19 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="welcome">
-        <div class="welcome__container">
-            <h1 class="welcome__h1">Welcome to home page</h1>
-            <div class="box"></div>
-        </div>
-    </div>
     <header>
         <div class="container">
             <nav class="nav">
@@ -26,16 +20,16 @@
                 <div class="nav__menu">
                     <ul>
                         <li>
-                            <a href="">HOME</a>
+                            <a href="./index.html">HOME</a>
                         </li>
                         <li>
-                            <a href="">ABOUT</a>
+                            <a href="./about.html">ABOUT</a>
                         </li>
                         <li>
-                            <a href="">SHOP</a>
+                            <a href="./shop.html">SHOP</a>
                         </li>
                         <li>
-                            <a href="">CONTACT</a>
+                            <a href="./contact.html">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -52,12 +46,8 @@
                         <p class="p2">Unique & modern pottery made by our master in porcelain & stones</p>
                         <button>SHOP COLLECTION</button>
                     </div>
-                    <img class="img" src="./images/sahifa-1_images/1-qator_bgkoza.png" alt="koza" width="600">
+                    <img class="img" src="./images/sahifa-1_images/1-qator_bgkoza.png" alt="koza" width="555">
                 </div>
-            </div>
-            <div class="nmadur">
-                <img src="./images/sahifa-1_images/1-qator_w.svg" alt="">
-                <img src="./images/sahifa-1_images/1-qator_w-davomi.svg" alt="">
             </div>
         </section>
         <section class="qator2">
@@ -81,7 +71,7 @@
                         <div class="dumaloq3">
                             <div class="dumaloq3_img">
                                 <img src="./images/sahifa-1_images/2-qator_kosa.png" alt="">
-                                <p>MUGS</p>
+                                <p>PLATES</p>
                             </div>
                         </div>
                     </div>
@@ -103,26 +93,24 @@
                 <div class="ikkikoza-content">
                     <div class="koza-content1">
                         <div class="qator3__kozabg1">
-                            <div class="qator3__kozaback1"></div>
-                            <img src="./images/sahifa-1_images/3-qator_koza1.png" alt="koza" width="200px">
+                            <img class="qator3__img" src="./images/sahifa-1_images/3-qator_koza1.png" alt="koza" width="200">
                         </div>
-                        <div>
+                        <div class="qator3__content">
                             <h2>Orange Ceramic</h2>
-                            <p>Pri cu dico labores officis,odio principes complectitur ad<br>see.Sea id doctus forensibus,nec lorem vocent aliquam eu.<br>
+                            <p class="lorem2">Pri cu dico labores officis,odio principes complectitur ad<br>see.Sea id doctus forensibus,nec lorem vocent aliquam eu.<br>
                             Aliquid definitiones id cum,ad meliore perpetuareferrentur<br>sed.Quas suscipit ad mea verear vivendo tincidunt.</p>
-                            <a href="#">View Details</a>
+                            <a class="details" href="#">View Details</a>
                         </div>
                     </div>
                     <div class="koza-content2">
-                        <div>
+                        <div class="qator3__content">
                             <h2>Gold & Black Pottery</h2>
-                            <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit sed<br> do eiusmod tempor incididunt ut labore dolore aua.Ut enim<br>
+                            <p class="lorem3">Lorem ipsum dolor sit amet,consectetur adipisicing elit sed<br> do eiusmod tempor incididunt ut labore dolore aua.Ut enim<br>
                             ad minim veniam,quis nostrud exercitationulco laboris nisi<br>ut aliquip ex ea commodo consequatuisaute.</p>
-                            <a href="#">View Details</a>
+                            <a class="details3" href="#">View Details</a>
                         </div>
                         <div class="qator3__kozabg2">
-                            <div class="qator3__kozaback2"></div>
-                            <img src="./images/sahifa-1_images/3-qator_koza2.png" alt="" width="250">
+                            <img class="kozaimg" src="./images/sahifa-1_images/3-qator_koza2.png" alt="" width="250">
                         </div>
                     </div>
                 </div>
@@ -131,55 +119,120 @@
         <section class="qator4">
             <div class="container">
                 <div class="qator4__div">
-                    <p>OUR ONLINE STORE</p>
+                    <p class="pp">OUR ONLINE STORE</p>
                     <h2>Pottery Collection</h2>
                     <div class="qator4__cards">
                         <div class="qator4__card">
-                            <img src="./images/sahifa-1_images/4-qator_rasm1.png" alt="rasm" width="300">
+                            <img src="./images/sahifa-1_images/4-qator_rasm1.png" alt="rasm" width="350">
                             <div>
-                                <p>Decor Plate</p>
-                                <p><b>$65.00 USD</b></p>
+                                <p class="p1">Decor Plate</p>
+                                <p class="p2"><b>$65.00 USD</b></p>
                             </div>
                         </div>
                         <div class="qator4__card">
-                            <img src="./images/sahifa-1_images/4-qator_rasm2.png" alt="rasm" width="300">
+                            <img src="./images/sahifa-1_images/4-qator_rasm2.png" alt="rasm" width="350">
                             <div>
-                                <p>Mint Pottery</p>
-                                <p><b>$75.00 USD</b></p>
+                                <p class="p1">Mint Pottery</p>
+                                <p class="p2"><b>$75.00 USD</b></p>
                             </div>
                         </div>
                         <div class="qator4__card">
-                            <img src="./images/sahifa-1_images/4-qator_rasm3.png" alt="rasm" width="300">
+                            <img src="./images/sahifa-1_images/4-qator_rasm3.png" alt="rasm" width="350">
                             <div>
-                                <p>Set Of Potterys</p>
-                                <p><b>$125.00 USD</b></p>
+                                <p class="p1">Set Of Potterys</p>
+                                <p class="p2"><b>$125.00 USD</b></p>
                             </div>
                         </div>
                         <div class="qator4__card">
-                            <img src="./images/sahifa-1_images/4-qator_rasm4.png" alt="rasm" width="300">
+                            <img src="./images/sahifa-1_images/4-qator_rasm4.png" alt="rasm" width="350">
                             <div>
-                                <p>Orange Ceramic</p>
-                                <p><b>$55.00 USD</b></p>
+                                <p class="p1">Orange Ceramic</p>
+                                <p class="p2"><b>$55.00 USD</b></p>
                             </div>
                         </div>
                         <div class="qator4__card">
-                            <img src="./images/sahifa-1_images/4-qator_rasm5.png" alt="rasm" width="300">
+                            <img src="./images/sahifa-1_images/4-qator_rasm5.png" alt="rasm" width="350">
                             <div>
-                                <p>Dark Bowl</p>
-                                <p><b>$115.00 USD</b></p>
+                                <p class="p1">Dark Bowl</p>
+                                <p class="p2"><b>$115.00 USD</b></p>
                             </div>
                         </div>
                         <div class="qator4__card">
-                            <img src="./images/sahifa-1_images/4-qator_rasm6.png" alt="rasm" width="300">
+                            <img src="./images/sahifa-1_images/4-qator_rasm6.png" alt="rasm" width="350">
                             <div>
-                                <p>Square Pottery</p>
-                                <p><b>$75.00 USD</b></p>
+                                <p class="p1">Square Pottery</p>
+                                <p class="p2"><b>$75.00 USD</b></p>
                             </div>
                         </div>
+                    </div>
+                    <div class="qator4__btn">
+                        <button>VIEW ALLPRODUCTS</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="qator5__bg">
+            <div class="container">
+                <div class="qator5-div">
+                    <p>POMPEO POTTERY</p>
+                    <h2>Ready to start shopping?</h2>
+                    <p class="qator5-href">Lorem ipsum dolor sit amet,<a href="#">consecteturadipiscing elit.</a> <br>Suspendissevarius enim ineros elementum</p>
+                    <button>NEW COLLECTION</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="qator6__inputlar">
+                    <div class="qator6__flex">
+                        <div class="qator6__telegram">
+                            <img src="./images/sahifa-1_images/6-qator_telegram-logo.png" alt="logo" width="50">
+                        </div>
+                        <p class="p">LATEST NEWS</p>
+                        <h2>Latest news <img src="./images/sahifa-1_images/1-qator_harf-stili.jpg" alt="logo" width="70">New updates</h2>
+                        <form action="">
+                            <input type="text"  placeholder="Enter your email" required>
+                            <button>SUBSCRIBE</button>
+                        </form>
+                        <p class="label">Sign up for our newsletter</p>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+    <footer class="qator7__bg">
+        <div class="container">
+            <div class="qator7p">
+                <div class="qator7__content">
+                    <img src="./images/sahifa-1_images/menu-img.jpg" alt="img">
+                    <p>I have always striven to fix beauty in wood,stone,<br>glass or pottery,that has been my creed.</p>
+                </div>
+                <div class="qator72__content">
+                    <div class="qator72__content__content1">
+                        <img src="./images/sahifa-1_images/7-qator_pochta_logo.png" alt="pochtalogo" width="50">
+                        <p class="p123"> <b>EMAIL</b></p>
+                        <a href="#">pompeopotery@gmail.com</a>
+                    </div>
+                    <div class="qator72__content__content2">
+                        <img src="./images/sahifa-1_images/7-qator_map_logo.png" alt="maplogo" width="50">
+                        <p class="p123"> <b>FIND</b></p>
+                        <a href="#">Central Park,Manhattan<br>New York,1101</a>
+                    </div>
+                    <div class="qator72__content__content3">
+                        <img src="./images/sahifa-1_images/7-qator_tel-logo.png" alt="tellogo" width="50">
+                        <p class="p123"> <b>CALL</b></p>
+                        <a href="#">+1 292 345 678</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="home__ohiri">
+        <div class="container">
+            <div class="home__ohiri__div">
+                <p><b>Template desighn by <span>Dorian Hoxha - Image License Info</span> Powered by <span>Webflow</span></b></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
